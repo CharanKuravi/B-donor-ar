@@ -1,0 +1,19 @@
+:root {
+  font-family: 'Sora', Georgia, system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: #f4ead5;
+  background-color: #150a0c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a { font-weight: 500; color: #c9a24b; text-decoration: inherit; }
+a:hover { color: #e0c37a; }
+body { margin: 0; display: grid; place-items: center; min-height: 100vh; background-color: #150a0c; color: #f4ead5; }
+button { font-family: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #c9a24b; outline-offset: 2px; }
+input:focus, select:focus { border-color: #c9a24b !important; }
+#root { width: 100%; display: flex; justify-content: center; }
